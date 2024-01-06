@@ -1,6 +1,8 @@
-import Banner from "@/Components/Banner";
-import Navbar from "@/Components/Navbar";
-import Popular from "@/Components/Popular";
+import Banner from "@/components/Banner";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import Popular from "@/components/Popular";
+import Recommended from "@/components/Recommended";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Navbar></Navbar>
       <Banner></Banner>
       <Popular></Popular>
+      <Recommended></Recommended>
+      <Footer></Footer>
     </div>
   )
 }
