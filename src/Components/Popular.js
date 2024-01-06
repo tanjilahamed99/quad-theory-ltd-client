@@ -60,7 +60,7 @@ const Popular = () => {
                                     <input className="p-2 rounded-xl" {...register("ImageUrl")} placeholder="http" type="text" required />
                                 </div>
                                 <div className="col-span-2 md:col-span-1">
-                                    <h2 className="text-sm font-bold mb-1 text-white">Rating</h2>
+                                    <h2 className="text-sm font-bold mb-1 text-white">Ratings</h2>
                                     <input className="p-2 rounded-xl" {...register("rating")} placeholder="name" type="number" required />
                                 </div>
                                 <div className="col-span-2" method="dialog">
